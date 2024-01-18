@@ -20,7 +20,7 @@ Ever felt like your database was too... predictable? Too safe? Fear no more! Wit
 Add some excitement to your life in just a few commands:
 
 ```bash
-composer require you/your-package
+composer require khomerikik/laravel-russian-roulette
 ```
 
 ## **Usage**
