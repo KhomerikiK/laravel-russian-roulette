@@ -16,7 +16,7 @@ class RussianRoulette
         try {
             $randomTable = $tables[array_rand($tables)]->$tableProperty;
 
-            return (bool) DB::table($randomTable)->inRandomOrder()?->delete();
+            return (bool) DB::table($randomTable)->inRandomOrder()->delete();
         } catch (Exception $e) {
             return false;
         }
